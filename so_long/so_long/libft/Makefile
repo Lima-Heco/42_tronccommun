@@ -23,7 +23,7 @@ SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft_split.c \
 					ft_print_ptr.c ft_print_str.c get_next_line.c get_next_line_utils.c
 OBJS		= $(SRCS:.c=.o)
 
-CC				= clang
+CC				= gcc
 RM				= rm -f
 CFLAGS				= -Wall -Wextra -Werror -I.
 
