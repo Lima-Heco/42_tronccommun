@@ -8,4 +8,13 @@
 # include <unistd.h>
 # include "libs/libft.h"
 
+typedef struct	t_pipe
+{	
+	char	*cmd;
+	char	**path;
+	char	*args[100];
+	int		f;
+
+}				t_pipe;
+
 #endif
